@@ -39,6 +39,10 @@ void makeInput(std::string fileName, std::function<void (int, std::string)> read
         file.close();
     }
 }
+/// Max
+int max(int a, int b) {
+    return a>b ? a : b;
+}
 /// Split String method
 std::vector<std::string> splitStringBy(std::string text, std::string delimiter) {
     std::vector<std::string> result = {};
@@ -58,11 +62,13 @@ void clearOutput() {
     outfile.open("output.txt");
     outfile.clear();
 }
-void makeOutput(std::string firstLine, std::vector<int> distance) {
+void makeOutput(std::string firstLine, std::vector<int> distance, int startVertex) {
     std::ofstream outfile;
     outfile.open("output.txt", std::ios_base::app);
     
     outfile << "\n" + firstLine + "\n";
+    outfile << "Start Vertex = " + std::to_string(startVertex) + "\n";
+    outfile << "Vertex Count = " + std::to_string(distance.size()) + "\n";
     int size = int(distance.size());
     for (int i = 0; i<size; i++) {
         outfile << "distance to vertex " + std::to_string(i)
@@ -92,11 +98,11 @@ void tableImplementation() {
     makeInput(fileName, [&](int lineIndex, std::string line) mutable {
         switch (lineIndex) {
             case 0: startVertex = std::stoi(splitStringBy(line, "start vertex = ")[1]); break;
-            case 1: vertexesCount = std::stoi(splitStringBy(line, "vertexes count = ")[1]); break;
-            case 2: break; // Just skip line
+            case 1: break; // Just skip line
             default: tableMatrix.push_back(parseVertexLineByText(splitStringBy(line, "|"))); break;
         }
     });
+    vertexesCount = int(tableMatrix[0].size());
     /// Prepare Distance Vector
     std::vector<int> distance(vertexesCount, INFINITY);
     distance[startVertex] = 0;
@@ -113,7 +119,7 @@ void tableImplementation() {
         }
     }
     /// Output
-    makeOutput("Output from Table/Matrix Function", distance);
+    makeOutput("Output from Table/Matrix Function", distance, startVertex);
 }
 /// -------------------
 /// List Implementation
@@ -135,10 +141,13 @@ void listImplementation() {
     makeInput(fileName, [&](int lineIndex, std::string line) mutable {
         switch (lineIndex) {
             case 0: startVertex = std::stoi(splitStringBy(line, "start vertex = ")[1]); break;
-            case 1: vertexesCount = std::stoi(splitStringBy(line, "vertexes count = ")[1]); break;
-            default: edges.push_back(parseEdgeByText(splitStringBy(line, " "))); break;
+            default:
+                Edge tempEdge = parseEdgeByText(splitStringBy(line, " "));
+                vertexesCount = max(vertexesCount, max(tempEdge.vertexA, tempEdge.vertexB));
+                edges.push_back(tempEdge); break;
         }
     });
+    vertexesCount++;
     /// Prepare edges and distance vector
     edgesCount = int(edges.size());
     std::vector<int> distance(vertexesCount, INFINITY);
@@ -152,7 +161,7 @@ void listImplementation() {
         }
     }
     /// Output
-    makeOutput("Output from List Function", distance);
+    makeOutput("Output from List Function", distance, startVertex);
 }
 /// ---------------------------
 /// MAIN
