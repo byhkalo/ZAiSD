@@ -1,20 +1,18 @@
 
 Output from Table/Matrix Function
 Start Vertex = 0
-Vertex Count = 6
+Vertex Count = 5
 distance to vertex 0 is 0
-distance to vertex 1 is 2
-distance to vertex 2 is 3
-distance to vertex 3 is -8
-distance to vertex 4 is -4
-distance to vertex 5 is 5
+distance to vertex 1 is 3
+distance to vertex 2 is 5
+distance to vertex 3 is 9
+distance to vertex 4 is 11
 
 Output from List Function
 Start Vertex = 0
-Vertex Count = 6
+Vertex Count = 5
 distance to vertex 0 is 0
-distance to vertex 1 is 2
-distance to vertex 2 is 3
-distance to vertex 3 is -8
-distance to vertex 4 is -4
-distance to vertex 5 is 5
+distance to vertex 1 is 3
+distance to vertex 2 is 5
+distance to vertex 3 is 9
+distance to vertex 4 is 11

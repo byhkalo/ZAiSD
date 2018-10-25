@@ -28,6 +28,7 @@
 		A55F2186217FCEDF00A8848E /* input_list.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_list.txt; sourceTree = "<group>"; };
 		A55F2187217FCEF800A8848E /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 		A55F2188217FCF1100A8848E /* input_table.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_table.txt; sourceTree = "<group>"; };
+		A588827621820681002C8D4B /* examples */ = {isa = PBXFileReference; lastKnownFileType = text; path = examples; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				A55F2186217FCEDF00A8848E /* input_list.txt */,
 				A55F2187217FCEF800A8848E /* output.txt */,
 				A55F2188217FCF1100A8848E /* input_table.txt */,
+				A588827621820681002C8D4B /* examples */,
 				A55F217F217FA8DB00A8848E /* main.cpp */,
 			);
 			path = ZAiSD_Lab1;
