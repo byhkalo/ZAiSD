@@ -1,0 +1,12 @@
+
+Output from Table/Matrix Function
+Max Flow = 19
+Vertex Count = 6
+from vertex 0 to vertex 1 flowing 10
+from vertex 0 to vertex 2 flowing 9
+from vertex 1 to vertex 3 flowing 4
+from vertex 4 to vertex 3 flowing 5
+from vertex 1 to vertex 4 flowing 6
+from vertex 2 to vertex 4 flowing 9
+from vertex 3 to vertex 5 flowing 9
+from vertex 4 to vertex 5 flowing 10
