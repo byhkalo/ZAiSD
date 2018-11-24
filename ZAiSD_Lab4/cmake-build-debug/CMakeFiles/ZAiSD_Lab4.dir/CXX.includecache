@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab4/main.cpp
+iostream
+-
+omp.h
+/Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab4/omp.h
+math.h
+-
+
