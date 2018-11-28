@@ -1,0 +1,3 @@
+/Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab5/cmake-build-debug/CMakeFiles/ZAiSD_Lab5.dir

@@ -1,0 +1,1 @@
+/usr/local/bin/g++-8   -std=c++14 -fopenmp -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ZAiSD_Lab5.dir/main.cpp.o  -o ZAiSD_Lab5 
