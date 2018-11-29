@@ -1,11 +1,6 @@
 #include <iostream>
 #include "omp.h"
 
-//#include <algorithm>
-//#include <cstddef>
-//#include <iterator>
-//#include <memory>
-
 // MARK: - Properties
 struct timespec start, finish;
 double elapsed;
