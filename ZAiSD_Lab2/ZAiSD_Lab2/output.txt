@@ -1,5 +1,5 @@
 
-Output from Table/Matrix Function
+Output from LIST Function
 Max Flow = 19
 Vertex Count = 6
 from vertex 0 to vertex 1 flowing 10

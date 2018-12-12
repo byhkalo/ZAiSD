@@ -151,7 +151,7 @@ void tableImplementation() {
              currentVertex = parent[currentVertex]) {
             tempPreviousVertex = parent[currentVertex];
             capacity[tempPreviousVertex][currentVertex] -= path_flow;
-            capacity[currentVertex][tempPreviousVertex] -= path_flow;
+            capacity[currentVertex][tempPreviousVertex] += path_flow;
         }
         max_flow += path_flow;
     }

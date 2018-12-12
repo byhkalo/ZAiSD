@@ -13,11 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7d198a7d-ef4c-4bc6-90e5-970d23796aa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2.xcodeproj/project.xcworkspace/xcuserdata/konstantyn.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2.xcodeproj/project.xcworkspace/xcuserdata/konstantyn.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab2/ZAiSD_Lab2/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/CMakeFiles/ZAiSD_Lab4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/CMakeFiles/ZAiSD_Lab4.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/ZAiSD_Lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/ZAiSD_Lab4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/ZAiSD_Lab4.dSYM/Contents/Resources/DWARF/ZAiSD_Lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../ZAiSD_Lab4/cmake-build-debug/ZAiSD_Lab4.dSYM/Contents/Resources/DWARF/ZAiSD_Lab4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAiSD_Lab5.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAiSD_Lab5.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAiSD_Lab5.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAiSD_Lab5.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ZAiSD_Lab5" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ZAiSD_Lab5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ZAiSD_Lab5.dSYM/Contents/Resources/DWARF/ZAiSD_Lab5" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ZAiSD_Lab5.dSYM/Contents/Resources/DWARF/ZAiSD_Lab5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -32,33 +35,34 @@
     <session id="1375044726">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1796" />
+          <entry key="cpp" value="2416" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="1796" />
+          <entry key="ObjectiveC" value="2416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="h" value="1" />
+          <entry key="h" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -68,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state>
               <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
             </state>
           </provider>
@@ -77,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="253" column="44" lean-forward="true" selection-start-line="253" selection-start-column="44" selection-end-line="253" selection-end-column="44" />
+            <state relative-caret-position="408">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -87,9 +91,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.2.0/8.2.0/include/stdarg.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
+            <state>
               <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
             </state>
           </provider>
@@ -129,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,6 +161,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,29 +203,30 @@
       <updated>1543136708935</updated>
       <workItem from="1543136711534" duration="9021000" />
       <workItem from="1543424484248" duration="5000" />
-      <workItem from="1543502781599" duration="1335000" />
+      <workItem from="1543502781599" duration="2862000" />
+      <workItem from="1544610324969" duration="4725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10361000" />
+    <option name="totallyTimeSpent" value="16613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21184371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18571429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31836733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2632653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.14387755" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.20408164" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -231,22 +246,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state>
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.2.0/8.2.0/include/stdarg.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state>
           <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="253" column="44" lean-forward="true" selection-start-line="253" selection-start-column="44" selection-end-line="253" selection-end-column="44" />
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

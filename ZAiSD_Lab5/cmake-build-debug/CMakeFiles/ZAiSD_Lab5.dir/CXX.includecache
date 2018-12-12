@@ -9,6 +9,8 @@
 /Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab5/main.cpp
 iostream
 -
+vector
+-
 omp.h
 /Users/konstantyn/Documents/AGH_ćwieczenia/ZAiSD/ZAiSD_Lab5/omp.h
 
